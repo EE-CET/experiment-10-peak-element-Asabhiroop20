@@ -7,6 +7,10 @@ public class PeakElement {
                 for (int i=0;i<len;i++){
                         arr[i]=sc.nextInt();
                 }
+                if (len == 1) {
+                        System.out.println(0);
+                        return;
+        }
 
                 if (arr[0] >= arr[1]) {
                         System.out.println(0);
@@ -23,8 +27,8 @@ public class PeakElement {
         }
     }
 
-    if (!found && arr[len - 1] >= arr[len - 2]) {
-        System.out.println(len - 1);
+                if (!found && arr[len - 1] >= arr[len - 2]) {
+                        System.out.println(len - 1);
     }
 }
     
